@@ -22,9 +22,8 @@ python -m http.server 8000
 # 访问 http://localhost:8000
 ```
 
-## GitHub Pages 在线试玩
-仓库 **Settings → Pages** 选择 `main` 分支根目录后，即可通过
-`https://zzy-2011.github.io/2048-game/` 在线游玩。
+## 在线试玩
+**🎮 点这里直接玩：** https://zzy-2011.github.io/2048-game/
 
 ## 文件结构
 ```
