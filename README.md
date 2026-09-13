@@ -23,7 +23,7 @@ python -m http.server 8000
 ```
 
 ## 在线试玩
-**🎮 点这里直接玩：** https://zzy-2011.github.io/2048-game/
+**🎮 点这里直接玩：** https://zzy-2011.github.io/2048/
 
 ## 文件结构
 ```
