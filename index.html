@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>2048 · 数字合并</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <h1>2048</h1>
+      <div class="scores">
+        <div class="score-box"><span class="label">分数</span><span id="score">0</span></div>
+        <div class="score-box"><span class="label">最高</span><span id="best">0</span></div>
+      </div>
+    </header>
+
+    <div class="bar">
+      <p class="tip">合并相同数字，凑出 <b>2048</b>！↑↓←→ / WASD / 滑动</p>
+      <button id="new">新游戏</button>
+    </div>
+
+    <div class="stage">
+      <div class="board" id="board"></div>
+      <div id="overlay" class="overlay hidden">
+        <div class="panel">
+          <div class="big" id="ov-title">游戏结束</div>
+          <div class="sub" id="ov-sub">没有可移动的步数了</div>
+          <button id="ov-btn">再来一局</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
